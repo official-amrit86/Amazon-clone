@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(16, 20, 24);
+}
+/* .Navbar {
+  width: auto;
+  height: 60px;
+  background-color: rgb(21, 13, 6); */
+/* border:100% solid  rgb(234, 123, 33); */
+/* padding: 10px;
+a { */
+/* margin-right: 200px;
+  text-decoration: none;
+}
+button {
+  background-color: rgb(235, 175, 22);
+}
+#Logo {
+  color: darkorange;
+  font-size: 25px;
+} */
+
+/* @media(min-width:600px)and(max-width:700px){
+  .Navbar{
+    background-color: rgb(85, 240, 13);
+    
+  }
+} */
+/* div {
+  height: 90px;
+  width: 110px;
+  background-color: rgb(0, 21, 255);
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in; */
+/* transition: all 3s ease; */
+/* transition-delay: 3s 0.25; */
+/* transition:font-size 2s ease-in-out 0.25; */
+/* transform: skew(45deg); */
+/* }
+@media (min-width: 400px) and (max-width: 700px) {
+  .Navbar {
+    background-color: rgb(12, 48, 53);
+  }
+}
+div:hover {
+  background-color: rgb(9, 35, 46);
+  color: green;
+  font-size: 20px;
+  text-align: center;
+}
+div:active{
+  background-color: pink;
+  color: chocolate;
+  border-radius: 50%;
+}  */
+/* .div { */
+/* border-radius: 40rem;
+  border-top: 5rem;
+  border: 2px solid chocolate;
+  height:15rem;
+  width: fit-content;
+  box-shadow: slateblue;
+  background-color: rgb(234, 143, 202);
+  transition-property: all 2s ease-in; /* singal line me likhne ka tarika hai */
+/* transition-delay:2s;  */
+/* transition-timing-function:10px  ease-in; */
+/* animation:myName 2s ease-in 0s infinite; */
+/* Animation likhane ka shorthand trick  */
+/* animation: myName;
+  transition: all 2s ease-in;
+  transition-duration: 2s;
+  animation-delay:0s;
+  animation-iteration-count: infinite; */
+
+/* Animation */
+/* @keyframes myName { */
+/* form {
+    bottom: 0rem;
+    border-radius: 40rem;
+    background-color: rgb(247, 235, 245) ;
+  }
+  to {
+    /* margin-right: -50px; */
+/* margin-top:11rem;
+    background-color: darkblue;
+  } */
+/* 0%{font-size: 20px;
+    background-color: yellowgreen;
+  }
+   25%{font-size: 40px;
+  background-color: darkblue;
+  }
+   50%{font-size: 60px;}
+   75%{font-size: 60px;}
+   100%{font-size: 80px;}
+} */
+/* .div:hover{
+  transform: translate(100px);
+  transition: 2s;
+    background-color: chocolate;
+  
+  } */
+/* .div:hover {
+  /* transform:rotate(360deg); */
+/* transform:rotateX(360deg); */
+/* transform:rotateY(360deg); */
+/* transform:rotateZ(360deg); */
+/* transform: scale(2);ye width,height dono ko sath me badhata hai */
+/* transform:translate(100px,300px); */
+/* transform: skewY(360deg);} */
+.loader {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 80rem;
+  border: 15px solid rgb(17, 0, 255);
+  border-top: 15px solid black;
+  /* transition: all 2s ease-in; */
+  animation: loder 1s steps(5) 1s infinite normal;
+  /* shorthand likhne ka tarika */
+}
+@keyframes loder {
+  form {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
